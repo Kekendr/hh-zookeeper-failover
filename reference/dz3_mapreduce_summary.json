@@ -1,0 +1,33 @@
+{
+  "engine": "mapreduce",
+  "variant": "Программист, разработчик на Python",
+  "source": "s3://hh-lake/raw/it_vacancies_2024.csv",
+  "splits": 26,
+  "workers": 6,
+  "reducers": 4,
+  "data_lines": 229388,
+  "variant_vacancies": 7545,
+  "vacancies_with_skills": 6637,
+  "distinct": {
+    "k1": 3052,
+    "k2": 50665,
+    "k3": 356245
+  },
+  "total_occurrences": {
+    "k1": 48857,
+    "k2": 223836,
+    "k3": 896960
+  },
+  "emitted_by_mappers": {
+    "k1": 48857,
+    "k2": 223836,
+    "k3": 896960
+  },
+  "map_failures": [],
+  "sha256": "5354f749b1a6f90370ab5df1c7cabf0d1d134c24a8e39b8490bd8eeefa9d98a8",
+  "seconds": {
+    "map": 3.458,
+    "shuffle_reduce": 0.521,
+    "total": 5.217
+  }
+}

@@ -1,0 +1,11 @@
+Запуск run0_baseline
+Указатель /hh/run0_baseline/result: версия 1 (сколько раз записан), данные:
+  {"writer": "coord-A", "epoch": 1, "prefix": "zk/run0_baseline/result/coord-A-epoch1", "sha256": "5354f749b1a6f90370ab5df1c7cabf0d1d134c24a8e39b8490bd8eeefa9d98a8", "time": "21:49:53.797"}
+Эпоха /hh/run0_baseline/epoch: 1 (сколько раз сменялся лидер)
+Чекпоинт: 51 сплитов, кто посчитал: {'coord-A (эпоха 1)': 51}
+
+Результаты в хранилище s3://hh-lake/zk/run0_baseline/result/: 1
+  coord-A-epoch1/summary.json  (действующий, на него ссылается указатель)
+    вакансий 7,545, с навыками 6,637; уникальных k1/k2/k3: 3,052/50,665/356,245
+    sha256 5354f749b1a6f90370ab5df1c7cabf0d1d134c24a8e39b8490bd8eeefa9d98a8
+    совпадает с ДЗ-3 (MapReduce, sha256 5354f749b1a6f903...): ДА
